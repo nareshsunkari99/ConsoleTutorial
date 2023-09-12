@@ -1,0 +1,50 @@
+﻿Inheritance 
+parent 1lakh ==> Properties ==> Child [1lakh]
+
+Single  
+A == Parent, base
+B == Child , derived
+
+class A
+{
+}
+class B : A
+{
+
+}
+
+
+Multiple 
+c# we cant achieve these multiple inheritances
+with classes
+class A
+{
+}
+class B
+{
+}
+
+class c : A , B
+{
+}
+
+class A{}
+interface B{}
+interface C{}
+class d : A, B, C 
+{}
+
+multi level
+
+class A
+{
+}
+
+class B : A
+{
+}
+
+class c : B
+{
+}
+

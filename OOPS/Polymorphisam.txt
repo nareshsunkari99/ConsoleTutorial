@@ -1,0 +1,19 @@
+﻿Polymorphisam ==> Many forms
+
+
+X Food ==> Breakfast, Lunch, Dinner 
+
+Method Overloading
+
+void x(){}                == obj.x();
+void x(int n){}           == obj.x(20);
+void x(int a, int b){}    == obj.x(20,10);
+void x(int a,string b){}  == obj.x(20,"mystring");
+void x(string a,int b){}  == obj.x("ex",30);
+
+Method Overriding   
+
+
+virtual
+
+override
