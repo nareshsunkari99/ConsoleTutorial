@@ -1,6 +1,7 @@
 ﻿using ConsoleTutorial.Casting;
 using ConsoleTutorial.ClassObjectsDemo;
 using ConsoleTutorial.ControlStatements;
+using ConsoleTutorial.ExceptionHandling;
 using ConsoleTutorial.MethodsDemo;
 using ConsoleTutorial.OOPS;
 using ConsoleTutorial.Variables;
@@ -56,24 +57,33 @@ class MyProgram
         //fileOperations.Write("test");
         //fileOperations.Read();
 
-      
 
-        Polymorphisam polymorphisam = new Polymorphisam();
-        polymorphisam.MethodOverloadingDemo(10);
-        polymorphisam.MethodOverloadingDemo(10,20);
-        polymorphisam.MethodOverloadingDemo("sana");
 
-        MyBase myBase = new MyBase();
-        myBase.MyMethod();
-        
-        MyDerived myDerived =new MyDerived();
-        myDerived.MyMethod();
+        //Polymorphisam polymorphisam = new Polymorphisam();
+        //polymorphisam.MethodOverloadingDemo(10);
+        //polymorphisam.MethodOverloadingDemo(10,20);
+        //polymorphisam.MethodOverloadingDemo("sana");
 
-        MyDerived1 myDerived1 = new MyDerived1();
-        myDerived1.MyMethod();
+        //MyBase myBase = new MyBase();
+        //myBase.MyMethod();
 
-        MyBase myBase1 = new MyDerived1();
-        myBase1.MyMethod();
-        
+        //MyDerived myDerived =new MyDerived();
+        //myDerived.MyMethod();
+
+        //MyDerived1 myDerived1 = new MyDerived1();
+        //myDerived1.MyMethod();
+
+        //MyBase myBase1 = new MyDerived1();
+        //myBase1.MyMethod();
+
+        //Implementor implementor = new();
+        //implementor.Implemented();
+        //implementor.Details();
+
+        ExceptionHandlingDemo exceptionHandlingDemo = new();
+      Console.WriteLine(  exceptionHandlingDemo.Division(20,0));
+
+        Console.WriteLine(exceptionHandlingDemo.Division(20, 10));
+
     }
 }

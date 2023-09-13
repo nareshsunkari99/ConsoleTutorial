@@ -1,0 +1,5 @@
+﻿public  -- every where
+private -- with in the same class
+protected -- derived class 
+internal   -- assembly
+protected internal -- assembly or inherited

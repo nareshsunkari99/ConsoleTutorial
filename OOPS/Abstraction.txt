@@ -1,0 +1,22 @@
+﻿Hide Internal details and show functionality
+
+Abstract classes
+
+
+abstract ==> keyword class/Method
+
+abstract class x{
+
+y()
+{
+ggagsg;
+}
+abstract z();
+}
+
+
+
+
+
+Interfaces
+

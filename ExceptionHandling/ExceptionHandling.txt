@@ -1,0 +1,21 @@
+﻿runtime errors ==> Exceptions
+
+How to Handle ??
+Exception Handling
+
+try
+{
+// db inserting
+// open the connection
+// insert command == exception
+
+}
+catcth
+{
+// log
+
+}
+finally
+{
+// close connection
+}
