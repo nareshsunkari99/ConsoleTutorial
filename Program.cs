@@ -2,6 +2,7 @@
 using ConsoleTutorial.ClassObjectsDemo;
 using ConsoleTutorial.ControlStatements;
 using ConsoleTutorial.ExceptionHandling;
+using ConsoleTutorial.Files;
 using ConsoleTutorial.MethodsDemo;
 using ConsoleTutorial.OOPS;
 using ConsoleTutorial.Variables;
@@ -80,10 +81,14 @@ class MyProgram
         //implementor.Implemented();
         //implementor.Details();
 
-        ExceptionHandlingDemo exceptionHandlingDemo = new();
-      Console.WriteLine(  exceptionHandlingDemo.Division(20,0));
+      //  ExceptionHandlingDemo exceptionHandlingDemo = new();
+      //Console.WriteLine(  exceptionHandlingDemo.Division(20,0));
 
-        Console.WriteLine(exceptionHandlingDemo.Division(20, 10));
+      //  Console.WriteLine(exceptionHandlingDemo.Division(20, 10));
+
+        FileDemo fileDemo= new FileDemo();
+        fileDemo.ReadFile();
+        fileDemo.WriteFile(Console.ReadLine());
 
     }
 }

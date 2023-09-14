@@ -1,0 +1,25 @@
+﻿files
+
+filesystem
+
+System.IO
+
+
++++
++++ =====> []  
++++
+
+FileStream
+StreamReader
+StreamWriter
+
+FileStream fs=new();
+
+Path=-=> file source
+
+FileMode
+Create
+OPen
+OPenOrCreate
+CreateNew
+Append
