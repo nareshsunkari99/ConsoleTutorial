@@ -1,0 +1,16 @@
+﻿var x="30"
+
+|30, 40, 50, 60
+|"","",""
+
+Arrays
+	   [12,9,5,6]
+Index	0  1 2 3  n n-1  4 3
+
+Single Dimensions
+Multi Dimenions
+
+string [] names= {"A","B","C"};
+
+
+string [,] names = {{},{}}

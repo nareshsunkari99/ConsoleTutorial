@@ -6,6 +6,9 @@ using ConsoleTutorial.Files;
 using ConsoleTutorial.MethodsDemo;
 using ConsoleTutorial.OOPS;
 using ConsoleTutorial.Variables;
+using ConsoleTutorial.ArraysConcept;
+using ConsoleTutorial.CollectionsDemo;
+using ConsoleTutorial;
 
 class MyProgram
 {
@@ -81,14 +84,22 @@ class MyProgram
         //implementor.Implemented();
         //implementor.Details();
 
-      //  ExceptionHandlingDemo exceptionHandlingDemo = new();
-      //Console.WriteLine(  exceptionHandlingDemo.Division(20,0));
+        //  ExceptionHandlingDemo exceptionHandlingDemo = new();
+        //Console.WriteLine(  exceptionHandlingDemo.Division(20,0));
 
-      //  Console.WriteLine(exceptionHandlingDemo.Division(20, 10));
+        //  Console.WriteLine(exceptionHandlingDemo.Division(20, 10));
 
-        FileDemo fileDemo= new FileDemo();
-        fileDemo.ReadFile();
-        fileDemo.WriteFile(Console.ReadLine());
+        //FileDemo fileDemo= new FileDemo();
+        //fileDemo.ReadFile();
+        //fileDemo.WriteFile(Console.ReadLine());
+
+        //DemoArrays demoArrays = new();
+        //demoArrays.DemoOnSingleDimensions();
+        //demoArrays.DemoOnMultiDimensions();
+
+        DemoCollections demoCollections = new DemoCollections();
+        demoCollections.ListDemo();
+
 
     }
 }
