@@ -19,11 +19,7 @@ namespace ConsoleTutorial.ExceptionHandling
             Console.WriteLine(ex.Message);
                 return -1;
             }
-            catch(OverflowException  ex) {
-
-                Console.WriteLine(ex.Message);
-                return -1;
-            }
+           
             finally
             {
                 Console.WriteLine("from finally");
